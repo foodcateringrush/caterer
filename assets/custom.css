@@ -1,0 +1,57 @@
+.bg-custom {
+	background: linear-gradient(241deg, #28bfdb, #ef424c, #82de3a);
+	background-size: 600% 600%;
+	-webkit-animation: bgGradient 10s ease infinite;
+	-moz-animation: bgGradient 10s ease infinite;
+	animation: bgGradient 10s ease infinite;
+}
+
+@-webkit-keyframes bgGradient {
+	0% {
+		background-position: 0% 63%;
+	}
+
+	50% {
+		background-position: 100% 38%;
+	}
+
+	100% {
+		background-position: 0% 63%;
+	}
+}
+
+@-moz-keyframes bgGradient {
+	0% {
+		background-position: 0% 63%;
+	}
+
+	50% {
+		background-position: 100% 38%;
+	}
+
+	100% {
+		background-position: 0% 63%;
+	}
+}
+
+@keyframes bgGradient {
+	0% {
+		background-position: 0% 63%;
+	}
+
+	50% {
+		background-position: 100% 38%;
+	}
+
+	100% {
+		background-position: 0% 63%;
+	}
+}
+
+.text-fcrblue-500 {
+	color: #28BFDB;
+}
+
+.bg-fcrblue-500 {
+	background-color: #28BFDB;
+}
